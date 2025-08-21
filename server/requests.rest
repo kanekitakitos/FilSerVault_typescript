@@ -1,0 +1,58 @@
+GET http://localhost:8080/movies
+
+###
+
+GET http://localhost:8080/tvShows
+
+###
+
+POST http://localhost:8080/movies
+Content-Type: application/json
+
+{
+    "title": "American Pie",
+    "year": 1999,
+    "rating": 7.0,
+    "category": "Comedy",
+    "director": "Paul Weitz",
+    "description": "Four teenage boys enter a pact to lose their virginity by prom night.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTg3ODY5ODI1NF5BMl5BanBnXkFtZTgwMTkxNTYxMTE@._V1_.jpg"
+}
+
+###
+
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+    "username": "user",
+    "password": "teste"
+}
+
+###
+
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+    "username": "joao",
+    "password": "teste"
+}
+
+###
+
+GET http://localhost:8080/users
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "username": "user",
+    "password": "teste"
+}
+
+###
+
+DELETE http://localhost:8080/users/TiR4tuYRe603JUiK

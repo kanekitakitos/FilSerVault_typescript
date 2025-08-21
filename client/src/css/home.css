@@ -1,0 +1,43 @@
+.bground {
+  position: fixed;
+  background-image: url("../assets/background.gif");
+  background-size: cover;
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  background-blend-mode: darken;
+}
+
+.content {
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 0%
+}
+
+/*Welcome-text h1 - Título principal*/
+.welcome-text h1 {
+    color: white;
+    font-size: 2em;
+    margin: 1% 0;
+    margin-top: 3%;
+}
+
+
+/*Welcome-text p - subtitulo*/
+.welcome-text p {
+    color: white;
+    font-size: 1.12em;
+    margin: 1% 0;
+}
+
+/*Content h2 - "Welcome, nome"*/
+.content h2 {
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 1%;
+}
+

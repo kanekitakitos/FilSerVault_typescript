@@ -1,0 +1,126 @@
+.search-container {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.search-icon i{
+    position: absolute;
+}
+
+.search-icon {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon{
+    padding: 10px;
+    min-width: 50px;
+    text-align: center;
+}
+
+
+::placeholder{
+    color: white;
+}
+
+.sort-label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+  
+.sort-select {
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+  
+
+.sort-select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+
+.input-field {
+    width: 120%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background: none;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 2);
+    color: white;
+}
+
+
+.searchAndSort {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    gap: 50px;
+    /* Espaço entre search e sort */
+    margin: 0px auto;
+    /* Margens automáticas para centralização */
+    width: fit-content;
+    /* Ajusta o tamanho ao conteúdo */
+    padding: 0px;
+}
+
+/* Botao favoritos */
+/*Se está on favorites entao tenho de remover entao bg branco, hover vermelho*/
+
+
+.onFavorites {
+    background-color: #6b6b6b;
+    color: white;
+    border: 2px solid rgb(255, 72, 72);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.notOnFavorites {
+    background-color: #6b6b6b;
+    color: white;
+    border: 2px solid rgb(255, 247, 98);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.onFavorites:hover {
+    background-color: rgb(255, 102, 102);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 72, 72);
+}
+
+.notOnFavorites:hover {
+    background-color: rgb(255, 248, 116);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(252, 247, 154);
+}
+/* Botao Categorias */
+.categoriesButton {
+    display: inline-block;
+    padding: 5px 9px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.categoriesButton:hover {
+    /* Cambiar el color del texto al pasar el ratón por encima */
+    color: #fff;
+    background-color: transparent;
+}

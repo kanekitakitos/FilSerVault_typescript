@@ -1,0 +1,97 @@
+.reg-login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.reg-login-container .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.reg-login-container .user-box label {
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #03e9f4;
+}
+
+
+/* Estilo do botao para submeter o formulario de login e register */
+.reg-login-container form button { 
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    background: #296586;
+    /* Cor fixa de fundo */
+    border: none;
+    /* Sem borda */
+    cursor: pointer;
+    /* Mantém o cursor como pointer */
+}
+
+/* Estilo de hover para o botao de submeter o formulario de login e register */
+.reg-login-container form button:hover {
+    background: #03e9f4;
+    /* Cor fixa de fundo */
+}
+
+
+/* Titulo do formulario e botoes do canto superior direito - Login e Register */
+
+.login-register-title-and-top-right-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    /* Espaçamento entre os itens */
+    margin-bottom: 10px;
+}
+
+.login-register-title-and-top-right-buttons h1 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.login-register-title-and-top-right-buttons button { 
+    padding: 10px 15px;
+    font-size: 16px;
+    background: #378ebd;
+    /* Fundo fixo */
+    color: #fff;
+    /* Texto fixo */
+    border: none;
+    /* Sem borda */
+    cursor: pointer;
+    /* Mantém o cursor como pointer */
+}
+
+/* Mensagem de erro nos campos do form*/
+.error-message {
+    color: red;
+    margin-top: -12px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
