@@ -56,7 +56,7 @@ FilSerVault allows users to:
 ### Installation
 ```bash
 # Clone repository
-git clone <your-repo-url>
+git clone https://github.com/kanekitakitos/FilSerVault_typescript
 cd projeto-final
 
 # Install dependencies
